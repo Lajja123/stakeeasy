@@ -1,0 +1,148 @@
+/* Split View Stepper Styles */
+.split-view-stepper {
+  height: 100vh;
+
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.step-list {
+  width: 30%;
+  background-color: #0073e6;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.step-list-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.step-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.step-item {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.step-item:hover {
+  background-color: #005bb5;
+}
+
+.step-item.active {
+  background-color: #004799;
+  font-weight: bold;
+}
+
+.step-number {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  color: #0073e6;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 10px;
+}
+
+.content-area {
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0073e6;
+}
+
+.content-box {
+  margin-bottom: 20px;
+}
+
+.content-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  margin: 10px 0;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #005bb5;
+}
+
+.nav-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.nav-button.back-button {
+  background-color: #6c757d;
+}
+
+.nav-button.back-button:hover {
+  background-color: #5a6268;
+}
+
+.nav-button.cancel-button {
+  background-color: #dc3545;
+}
+
+.nav-button.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.button-icon {
+  margin: 0 5px;
+}
